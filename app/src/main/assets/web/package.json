@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "via desktop file sharing app WEB",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:upload": "webpack --config webpack.config.upload.js --watch",
+    "build:download": "webpack --config webpack.config.download.js --watch",
+    "build": "webpack --config webpack.config.upload.js && webpack --config webpack.config.download.js && live-server"
+  },
+  "author": "Maxwell Macharia Mbugua",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0"
+  },
+  "dependencies": {
+    "dropzone": "^5.7.0",
+    "pretty-checkbox": "^3.0.3",
+    "uuid": "^7.0.3"
+  }
+}

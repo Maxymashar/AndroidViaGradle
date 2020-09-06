@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Via Uploads</title>
+  <link rel="stylesheet" href="./css/uploads.style.css">
+  <link rel="stylesheet" href="./fonts/sen.css">
+</head>
+
+<body>
+  <div class="content_container">
+    <header class="main_header">
+      <div class="logo_container" title="via">
+        <div class="logo_icon">
+          <img src="./assets/via-logo-dark-50px.svg" alt="via logo icon">
+        </div>
+        <div class="logo_text">
+          <span>Via Links</span>
+        </div>
+      </div>
+      <div class="search_container">
+        <div class="search_icon">
+          <img src="./assets/via-search-icon.svg" alt="via search icon">
+        </div>
+        <div class="text_input">
+          <input type="text" placeholder="Search for files" autocomplete="none" class="search_input">
+        </div>
+        <div class="selection_container">
+          <div class="selection_icon select_all">
+            <img src="./assets/via-select-all-icon.svg" alt="" title="Select All" width="32px" height="32px">
+          </div>
+          <div class="selection_icon select_none">
+            <img src="./assets/via-select-none-icon.svg" alt="" title="Select None" width="32px" height="32px">
+          </div>
+          <div class="selection_icon invert_selection">
+            <img src="./assets/via-invert-selection-icon.svg" alt="" title="Invert Selection" width="32px"
+              height="32px">
+          </div>
+          <div class="selection_icon delete_selected">
+            <img src="./assets/via-delete-selected-icon.svg" alt="" title="Delete Selected" width="32px" height="32px">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="file_add_container">
+      <img src="./assets/via-add-white-icon.svg" alt="Add Files Icon" title="Add Files" class="file_add_btn">
+      <div class="drop_file_text">
+        <span>Drop Files Here</span>
+      </div>
+    </div>
+    <div class="alert_container">
+      <span>Error</span>
+    </div>
+    <div class="before"></div>
+    <section class="files_section">
+      <div class="title">
+        <span></span>
+      </div>
+      <ul class="chosen_files"></ul>
+    </section>
+  </div>
+  <script src="./build/out.bundle.upload.js"></script>
+</body>
+
+</html>

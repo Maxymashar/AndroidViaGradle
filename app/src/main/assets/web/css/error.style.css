@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: rgba(0,0,0,0.1);
+  font-family: Quicksand;
+  color: #204051;
+}
+
+.error_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* display: none; */
+}
+
+.error_container > div {
+  /* text-align: center; */
+  padding: 10px;
+}
+.error_large_text {
+  font-size: 90px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.error_code {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.msg_container {
+  display: inline-block;
+}
+
+.msg_container span {
+  text-align: left;
+}
+
+.error_message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+/* .error_message div {
+  text-align: left;
+  width: 800px;
+  margin: 0px auto;
+} */

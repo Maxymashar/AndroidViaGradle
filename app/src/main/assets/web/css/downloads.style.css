@@ -1,0 +1,41 @@
+.files_section {
+  margin: 0px 20px 0px 20px;
+  padding: 0.5rem;
+  min-width: 1000px;
+  /* border: 2px solid var(--color-primary); */
+}
+
+.status_container {
+  flex: 2;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+.status_container .status_icon img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.status_container .status_icon {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0.5;
+  pointer-events: none; */
+}
+
+.status_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+}
+
+.alert_container {
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
